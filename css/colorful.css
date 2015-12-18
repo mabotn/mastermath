@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Ubuntu", sans-serif;
+	transition: 0.3s all ease;
+	box-sizing: border-box;
+	color: #eee;
+}
+
+html, body, #intro, #level, #win, #gameover {
+	height: 100%;
+	overflow: hidden;
+}
+
+#intro, #level, #win, #gameover {
+	text-align: center;
+}
+
+#intro {
+	background: #f3bc32;
+}
+
+#intro h1 {
+	font-weight: 100;
+	margin-bottom: 150px;
+	font-size: 96px;
+	transform: rotateZ(-3deg);
+	color: #1D2432;
+}
+
+#intro h1 span {
+	font-weight: bold;
+	color: #1D2432;
+}
+
+#credit {
+	font-size: 12px;
+	margin-top: 50px;
+	color: #1D2432;
+}
+
+#credit a {
+	color: #e74c3c;
+}
+
+#level {
+	background: #3498db;
+}
+
+.col {
+	display: inline-block;
+}
+
+.val {
+	margin: 10px;
+	font-size: 72px;
+	width: 150px;
+	background: none;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.val[type="text"] {
+	border: thin solid white;
+	width: 180px;
+}
+
+#levelProgress {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+#win {
+	background: #27ae60;
+}
+
+#gameover {
+	background: #e74c3c;
+}
+
+#win h1, #gameover h1 {
+	font-weight: 100;
+	margin-bottom: 150px;
+	font-size: 199px;
+	transform: rotateZ(25deg);
+}
+
+.v-center {
+	position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.btn {
+	padding: 25px 50px;
+	min-width: 200px;
+	background: white;
+	border: none;
+}
+
+.btn:hover {
+	background: #ddd;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}

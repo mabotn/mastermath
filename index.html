@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MasterMath</title>
+		<link rel="stylesheet" href="css/colorful.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</head>
+	<body>
+		<div id="intro">
+			<div class="v-center">
+				<h1>Master<span>Math</span></h1>
+				<a id="startPlaying" class="btn">START PLAYING</a>
+				<p id="credit">fork MasterMath, game made with &lt;3 by <a href="http://www.mabo.tn">MABO</a> on <a href="http://www.github.com/mabotn/mastermath">github</a></p>
+			</div>
+		</div>
+
+		<div id="level" hidden>
+			<div class="v-center">
+				<div id="leftVal" class="val col"></div>
+				<div id="operator" class="val col">+</div>
+				<div id="rightVal" class="val col"></div>
+				<div class="val col">=</div>
+				<input type="text" id="answer" class="val col">
+			</div>
+			<p id="levelProgress"></p>
+		</div>
+
+		<div id="win" hidden>
+			<div class="v-center">
+				<h1>:)</h1>
+				<a id="playAgain" class="btn">PLAY AGAIN</a>
+			</div>
+		</div>
+
+		<div id="gameover" hidden>
+			<div class="v-center">
+				<h1>:(</h1>
+				<a id="tryAgain" class="btn">TRY AGAIN</a>
+			</div>
+		</div>
+	</body>
+</html>
